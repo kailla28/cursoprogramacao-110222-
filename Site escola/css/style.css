@@ -1,0 +1,221 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #223759;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.header_menu ul li a {
+  color: #ecc601;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
+.logotipo_escola {
+  margin-left: 0px;
+}
+
+.logotipo_escola img {
+  border-radius: 50px;
+  width: auto;
+  height: 80px;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 480px;
+  background: url('../img/fundo-intro.png') no-repeat center;
+  background-size: cover;
+  margin-top: 110px;
+  padding-top: 80px;
+}
+
+.text-intro {
+  width: auto;
+  height: 360px;
+  padding: 0 10px;
+  background: rgba(103, 125, 160, 0.75);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #223759;
+  text-align: center;
+}
+
+.text-intro h2 {
+  padding: 20px 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ecc601;
+}
+
+.text-intro p {
+  padding: 20px 20px 30px 0px;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ecc601;
+}
+
+.img-intro {
+  width: 360px;
+  height: 360px;
+  padding: 0 10px;
+  background: url(../img/img-intro.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 4px #223759;
+  border-radius: 10px;
+}
+
+.informativo {
+  width: 100%;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.informativo .subtitulo {
+  color: #223759;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.informativo_lista li {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.informativo_lista li img {
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #cccccc;
+}
+
+.hide {
+  display: none;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background: #223759;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  /*tamanho do titulo*/
+  font-size: 18px;
+  /*almenta a parte em amarelo*/
+  line-height: 25px;
+  /*cordon do texto em amarelo*/
+  color: #ecc601;
+/*tudop em maiusculo*/
+  text-transform: uppercase;
+/*espacamento das letras*/
+  letter-spacing: 0.05em;
+/*negrito do titulo*/
+  font-weight: bold;
+}
+
+.footer_contato ul li {
+/*tamanho da letra, lista*/
+  font-size: 14px;
+/*almenta a parte azul do roda pé*/
+  line-height: 20px;
+  /*muda a fonte do texto na lista*/
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+/* ficar quadrado e ficar um do lado do outro*/
+  display: inline-block;
+/*separa os quadrados*/
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  /*faz o quadra ficar amarelo*/
+  border: 3px solid #ecc601;
+/*faz o negocio do insta e do face ficar um quadrado*/
+  display: block;
+  /*almenta a parte do insta e do face*/
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+  /*quando passa o mouse no negocio do inta e do face*/
+  border-color: #fff
+}
+
+.copy {
+/*deixa o textop mo centro*/
+  text-align: center;
+  /*ajusta o tamanho da tela*/
+  width: 100%;
+  /*deixa amarela a parte la de baixo*/
+  background: #ecc601;
+/* almenta a parte amarela do escrito*/
+  padding: 10px 0;
+}
+
+.copy p { 
+ /*deia em negrito*/
+  font-weight: bold;
+/*muda a fonte lá em baixo*/
+font-family: Arial, Helvetica, sans-serif;
+/*muda a cor do escrito*/
+  color: #223759;
+}
