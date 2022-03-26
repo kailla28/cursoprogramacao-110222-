@@ -1,0 +1,305 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+
+.header {
+  top: 0;
+  width: 100%;
+  background: #223759;
+  padding: 15px 0;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.header_menu ul li a {
+  color: #ecc601;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
+.logotipo_escola {
+  margin-left: 0px;
+}
+
+.logotipo_escola img {
+  border-radius: 50px;
+  width: auto;
+  height: 80px;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 480px;
+  background: url('../img/fundo-intro.png') no-repeat center;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.text-intro {
+  width: auto;
+  height: 360px;
+  padding: 0 10px;
+  background: rgba(103, 125, 160, 0.75);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #223759;
+  text-align: center;
+}
+
+.text-intro h2 {
+  padding: 20px 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ecc601;
+}
+
+.text-intro p {
+  padding: 20px 20px 30px 0px;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ecc601;
+}
+
+.img-intro {
+  width: 360px;
+  height: 360px;
+  padding: 0 10px;
+  background: url(../img/img-intro.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 4px #223759;
+  border-radius: 10px;
+}
+
+.sessao-branca {
+  width: 100%;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.sessao-branca .subtitulo {
+  color: #223759;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.sessao-branca_lista li {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.sessao-branca_lista li img {
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #cccccc;
+  border-radius: 10px;
+}
+
+.sessao-azul {
+  width: 100%;
+  background: #223759;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.sessao-azul .subtitulo {
+  color: #ecc601;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.sessao-azul_lista li {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.sessao-azul_lista li img {
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #4c648c;
+}
+
+.box-sessao-azul {
+  padding: 10px 0 10px 10px;
+  height: 260px;
+  background: rgba(179, 179, 179, 0.9);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #223759;
+}
+
+.sessao-azul_lista li p {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -270px;
+  margin-left: 10px;
+  width: 360px;
+  text-align: left;
+  color: #2b2b2b;
+}
+
+.hide {
+  display: none;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background: #223759;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 25px;
+  color: #ecc601;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.footer p {
+  padding: 7px 0;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  color: #ecc601;
+}
+
+.footer_contato {
+  text-align: left;
+  margin-left: auto;
+}
+
+.footer_redes {
+  text-align: right;
+}
+
+.footer_redes h3 {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: -10px;
+}
+
+.copy {
+  text-align: center;
+  width: 100%;
+  background: #ecc601;
+  padding: 10px 0;
+}
+
+.copy p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #223759;
+}
+
+/*Javascript*/
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+  background: #ecc601;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
